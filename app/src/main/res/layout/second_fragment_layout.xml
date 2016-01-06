@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linLayNotes">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note 1"
+            android:id="@+id/tvNote1"
+            android:textSize="48dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note 2"
+            android:id="@+id/tvNote2"
+            android:textSize="48dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note 3"
+            android:id="@+id/tvNote3"
+            android:textSize="48dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linLayResp"
+        android:layout_below="@+id/linLayNotes">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resp 1"
+            android:id="@+id/tvResp1"
+            android:textSize="36dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resp 2"
+            android:id="@+id/tvResp2"
+            android:textSize="36dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resp 3"
+            android:id="@+id/tvResp3"
+            android:textSize="36dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+
+</RelativeLayout>
